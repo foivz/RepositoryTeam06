@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93C3854D-9BEF-436E-929E-64937BBCB344}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>servis_za_ciscenje</RootNamespace>
+    <AssemblyName>PI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ServisCiscenjeDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServisCiscenjeDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ServisCiscenjeDBDataSetRadnik.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServisCiscenjeDBDataSetRadnik.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj logike\IPoslovnaLogika.cs" />
+    <Compile Include="Sloj logike\Logika.cs" />
+    <Compile Include="Sloj logike\PomocnaKlasa.cs" />
+    <Compile Include="SlojPodataka\CmbItemAdresa.cs" />
+    <Compile Include="SlojPodataka\CmbItemRadnik.cs" />
+    <Compile Include="SlojPodataka\CmbItemVozilo.cs" />
+    <Compile Include="SlojPodataka\klijent.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\korisnici.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\posao.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\PosaoGrid.cs" />
+    <Compile Include="SlojPodataka\radna_skupina.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\radnici.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\ServisCiscenjeDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServisCiscenjeDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\ServisCiscenjeDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\ServisCiscenjeDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServisCiscenjeDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\tim.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\usluga.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\usluga_posao.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SlojPodataka\vozila.cs">
+      <DependentUpon>ServisCiscenjeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAzurirajKlijenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAzurirajKlijenta.Designer.cs">
+      <DependentUpon>frmAzurirajKlijenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAzurirajPosao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAzurirajPosao.Designer.cs">
+      <DependentUpon>frmAzurirajPosao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAzurirajRadnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAzurirajRadnika.Designer.cs">
+      <DependentUpon>frmAzurirajRadnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAzurirajUslugu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAzurirajUslugu.Designer.cs">
+      <DependentUpon>frmAzurirajUslugu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAzurirajVozilo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAzurirajVozilo.Designer.cs">
+      <DependentUpon>frmAzurirajVozilo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDodajKlijenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDodajKlijenta.Designer.cs">
+      <DependentUpon>frmDodajKlijenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDodajPosao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDodajPosao.Designer.cs">
+      <DependentUpon>frmDodajPosao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDodajRadnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDodajRadnika.Designer.cs">
+      <DependentUpon>frmDodajRadnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDodajUslugu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDodajUslugu.Designer.cs">
+      <DependentUpon>frmDodajUslugu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDodajVozilo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDodajVozilo.Designer.cs">
+      <DependentUpon>frmDodajVozilo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDayView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDayView.Designer.cs">
+      <DependentUpon>frmDayView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOdaberiRadnike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOdaberiRadnike.Designer.cs">
+      <DependentUpon>frmOdaberiRadnike.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOdaberiRadnikeAzuriraj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOdaberiRadnikeAzuriraj.Designer.cs">
+      <DependentUpon>frmOdaberiRadnikeAzuriraj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOdaberiUsluge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOdaberiUsluge.Designer.cs">
+      <DependentUpon>frmOdaberiUsluge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOdaberiUslugeAzuriraj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOdaberiUslugeAzuriraj.Designer.cs">
+      <DependentUpon>frmOdaberiUslugeAzuriraj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOdaberiVozila.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOdaberiVozila.Designer.cs">
+      <DependentUpon>frmOdaberiVozila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOdaberiVozilaAzuriraj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOdaberiVozilaAzuriraj.Designer.cs">
+      <DependentUpon>frmOdaberiVozilaAzuriraj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPDFforma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPDFforma.Designer.cs">
+      <DependentUpon>frmPDFforma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRacun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRacun.Designer.cs">
+      <DependentUpon>frmRacun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRadnikReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRadnikReport.Designer.cs">
+      <DependentUpon>frmRadnikReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSifrarnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSifrarnik.Designer.cs">
+      <DependentUpon>frmSifrarnik.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ReportRacun.rdlc" />
+    <EmbeddedResource Include="ReportRadnik.rdlc" />
+    <EmbeddedResource Include="Views\frmAzurirajKlijenta.resx">
+      <DependentUpon>frmAzurirajKlijenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAzurirajPosao.resx">
+      <DependentUpon>frmAzurirajPosao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAzurirajRadnika.resx">
+      <DependentUpon>frmAzurirajRadnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAzurirajUslugu.resx">
+      <DependentUpon>frmAzurirajUslugu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAzurirajVozilo.resx">
+      <DependentUpon>frmAzurirajVozilo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDodajKlijenta.resx">
+      <DependentUpon>frmDodajKlijenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDodajPosao.resx">
+      <DependentUpon>frmDodajPosao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDodajRadnika.resx">
+      <DependentUpon>frmDodajRadnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDodajUslugu.resx">
+      <DependentUpon>frmDodajUslugu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDodajVozilo.resx">
+      <DependentUpon>frmDodajVozilo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDayView.resx">
+      <DependentUpon>frmDayView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOdaberiRadnike.resx">
+      <DependentUpon>frmOdaberiRadnike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOdaberiRadnikeAzuriraj.resx">
+      <DependentUpon>frmOdaberiRadnikeAzuriraj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOdaberiUsluge.resx">
+      <DependentUpon>frmOdaberiUsluge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOdaberiUslugeAzuriraj.resx">
+      <DependentUpon>frmOdaberiUslugeAzuriraj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOdaberiVozila.resx">
+      <DependentUpon>frmOdaberiVozila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOdaberiVozilaAzuriraj.resx">
+      <DependentUpon>frmOdaberiVozilaAzuriraj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPDFforma.resx">
+      <DependentUpon>frmPDFforma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRacun.resx">
+      <DependentUpon>frmRacun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRadnikReport.resx">
+      <DependentUpon>frmRadnikReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSifrarnik.resx">
+      <DependentUpon>frmSifrarnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ServisCiscenjeDBDataSet.xsc">
+      <DependentUpon>ServisCiscenjeDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ServisCiscenjeDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ServisCiscenjeDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ServisCiscenjeDBDataSet.xss">
+      <DependentUpon>ServisCiscenjeDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ServisCiscenjeDBDataSetRadnik.xsc">
+      <DependentUpon>ServisCiscenjeDBDataSetRadnik.xsd</DependentUpon>
+    </None>
+    <None Include="ServisCiscenjeDBDataSetRadnik.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ServisCiscenjeDBDataSetRadnik.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ServisCiscenjeDBDataSetRadnik.xss">
+      <DependentUpon>ServisCiscenjeDBDataSetRadnik.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="SlojPodataka\ServisCiscenjeDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ServisCiscenjeDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="SlojPodataka\ServisCiscenjeDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ServisCiscenjeDB.edmx</DependentUpon>
+      <LastGenOutput>ServisCiscenjeDB.Context.cs</LastGenOutput>
+    </None>
+    <None Include="SlojPodataka\ServisCiscenjeDB.edmx.diagram">
+      <DependentUpon>ServisCiscenjeDB.edmx</DependentUpon>
+    </None>
+    <None Include="SlojPodataka\ServisCiscenjeDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ServisCiscenjeDB.edmx</DependentUpon>
+      <LastGenOutput>ServisCiscenjeDB.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

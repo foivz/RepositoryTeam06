@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ServisCiscenjeDBModelStoreContainer" CdmEntityContainer="ServisCiscenjeDBEntities">
+    <EntitySetMapping Name="klijent">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.klijent">
+        <MappingFragment StoreEntitySet="klijent">
+          <ScalarProperty Name="id_klijent" ColumnName="id_klijent" />
+          <ScalarProperty Name="adresa" ColumnName="adresa" />
+          <ScalarProperty Name="kontakt" ColumnName="kontakt" />
+          <ScalarProperty Name="naziv" ColumnName="naziv" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="posaoid_posao" ColumnName="posaoid_posao" />
+          <ScalarProperty Name="posaoid_posao2" ColumnName="posaoid_posao2" />
+          <ScalarProperty Name="primanjeObavijesti" ColumnName="primanjeObavijesti" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="korisnici">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.korisnici">
+        <MappingFragment StoreEntitySet="korisnici">
+          <ScalarProperty Name="id_korisnik" ColumnName="id_korisnik" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="posao">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.posao">
+        <MappingFragment StoreEntitySet="posao">
+          <ScalarProperty Name="id_posao" ColumnName="id_posao" />
+          <ScalarProperty Name="datum" ColumnName="datum" />
+          <ScalarProperty Name="vrijeme" ColumnName="vrijeme" />
+          <ScalarProperty Name="adresa_ciscenja" ColumnName="adresa_ciscenja" />
+          <ScalarProperty Name="velicina_prostora" ColumnName="velicina_prostora" />
+          <ScalarProperty Name="tip_posla" ColumnName="tip_posla" />
+          <ScalarProperty Name="cijena" ColumnName="cijena" />
+          <ScalarProperty Name="vrijeme_izdavanja_racuna" ColumnName="vrijeme_izdavanja_racuna" />
+          <ScalarProperty Name="klijent_id" ColumnName="klijent_id" />
+          <ScalarProperty Name="klijentid_klijent" ColumnName="klijentid_klijent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="radna_skupina">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.radna_skupina">
+        <MappingFragment StoreEntitySet="radna_skupina">
+          <ScalarProperty Name="id_radnaSkupina" ColumnName="id_radnaSkupina" />
+          <ScalarProperty Name="vozilaid_vozilo" ColumnName="vozilaid_vozilo" />
+          <ScalarProperty Name="posaoid_posao" ColumnName="posaoid_posao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="radnici">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.radnici">
+        <MappingFragment StoreEntitySet="radnici">
+          <ScalarProperty Name="idradnik" ColumnName="idradnik" />
+          <ScalarProperty Name="ime" ColumnName="ime" />
+          <ScalarProperty Name="prezime" ColumnName="prezime" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tim">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.tim">
+        <MappingFragment StoreEntitySet="tim">
+          <ScalarProperty Name="id_radnaSkupina" ColumnName="id_radnaSkupina" />
+          <ScalarProperty Name="posaoid_posao" ColumnName="posaoid_posao" />
+          <ScalarProperty Name="radniciidradnik" ColumnName="radniciidradnik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usluga">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.usluga">
+        <MappingFragment StoreEntitySet="usluga">
+          <ScalarProperty Name="id_usluga" ColumnName="id_usluga" />
+          <ScalarProperty Name="naziv" ColumnName="naziv" />
+          <ScalarProperty Name="cijenaKvadrat" ColumnName="cijenaKvadrat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usluga_posao">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.usluga_posao">
+        <MappingFragment StoreEntitySet="usluga_posao">
+          <ScalarProperty Name="id_uslugaPosao" ColumnName="id_uslugaPosao" />
+          <ScalarProperty Name="uslugaid_usluga" ColumnName="uslugaid_usluga" />
+          <ScalarProperty Name="posaoid_posao" ColumnName="posaoid_posao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vozila">
+      <EntityTypeMapping TypeName="ServisCiscenjeDBModel.vozila">
+        <MappingFragment StoreEntitySet="vozila">
+          <ScalarProperty Name="id_vozilo" ColumnName="id_vozilo" />
+          <ScalarProperty Name="registracijska_oznaka" ColumnName="registracijska_oznaka" />
+          <ScalarProperty Name="model" ColumnName="model" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
