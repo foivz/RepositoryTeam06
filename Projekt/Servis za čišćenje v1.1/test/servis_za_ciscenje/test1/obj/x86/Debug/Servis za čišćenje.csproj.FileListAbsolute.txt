@@ -1,0 +1,135 @@
+C:\Users\Madafaka\Desktop\test\test1\test1\bin\Debug\test1.exe
+C:\Users\Madafaka\Desktop\test\test1\test1\bin\Debug\test1.pdb
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\servis_za_ciscenje.frmDb.resources
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\servis_za_ciscenje.frmMain.resources
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\servis_za_ciscenje.frmNewTerm.resources
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\servis_za_ciscenje.frmWorkers.resources
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\servis_za_ciscenje.Properties.Resources.resources
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\test1.exe
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\test1.pdb
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\servis_za_ciscenje.frmClients.resources
+C:\Users\Madafaka\Desktop\test\test1\test1\obj\x86\Debug\servis_za_ciscenje.frmVehicles.resources
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.frmMain.resources
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.frmNewTerm.resources
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Properties.Resources.resources
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDayView.resources
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmRacuni.resources
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmSifrarnik.resources
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\bin\Debug\PI.exe
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\bin\Debug\PI.pdb
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmLogin.resources
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.exe
+C:\Users\Madafaka\Desktop\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.pdb
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.exe
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.pdb
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\bin\Debug\PI.exe
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\bin\Debug\PI.pdb
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.frmMain.resources
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.frmNewTerm.resources
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Properties.Resources.resources
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmLogin.resources
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDayView.resources
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmRacuni.resources
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmSifrarnik.resources
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Madafaka\Desktop\test\test\servis_za_ciscenje\test1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.exe
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.pdb
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.exe
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.pdb
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.frmMain.resources
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.frmNewTerm.resources
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Properties.Resources.resources
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmLogin.resources
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDayView.resources
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmRacuni.resources
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmSifrarnik.resources
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Madafaka\Desktop\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rogina\Desktop\,\FOI\3. godina\2012.-2013\PI\2014\projekt\1. faza\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.exe
+C:\Users\Rogina\Desktop\,\FOI\3. godina\2012.-2013\PI\2014\projekt\1. faza\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.pdb
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.exe.config
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.exe
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.pdb
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\EntityFramework.dll
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\EntityFramework.xml
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\Servis za čišćenje.csprojResolveAssemblyReference.cache
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajKlijenta.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajPosao.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajRadnika.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajUslugu.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajVozilo.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajKlijenta.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajPosao.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajRadnika.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajUslugu.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajVozilo.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.frmMain.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Properties.Resources.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmLogin.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDayView.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiRadnike.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiRadnikeAzuriraj.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiUsluge.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiUslugeAzuriraj.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiVozila.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiVozilaAzuriraj.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmPDFforma.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmRacun.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmRadnikReport.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmSifrarnik.resources
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\Servis za čišćenje.csproj.GenerateResource.Cache
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\RdlCompile.cache
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.exe
+C:\Users\Tomislav\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.pdb
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.exe.config
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.exe
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.exe
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.pdb
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\EntityFramework.dll
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\EntityFramework.xml
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\Servis za čišćenje.csprojResolveAssemblyReference.cache
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajKlijenta.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajPosao.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajRadnika.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajUslugu.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmAzurirajVozilo.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajKlijenta.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajPosao.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajRadnika.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajUslugu.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDodajVozilo.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.frmMain.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Properties.Resources.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmLogin.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmDayView.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiRadnike.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiRadnikeAzuriraj.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiUsluge.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiUslugeAzuriraj.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiVozila.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmOdaberiVozilaAzuriraj.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmPDFforma.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmRacun.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmRadnikReport.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\servis_za_ciscenje.Views.frmSifrarnik.resources
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\Servis za čišćenje.csproj.GenerateResource.Cache
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\RdlCompile.cache
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Matejewski\Desktop\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.pdb
+C:\Users\Rogina\Desktop\,\FOI\3. godina\2012.-2013\PI\2014\projekt\2. faza\13.7\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\bin\Debug\PI.exe.config
+C:\Users\Rogina\Desktop\,\FOI\3. godina\2012.-2013\PI\2014\projekt\2. faza\13.7\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.exe
+C:\Users\Rogina\Desktop\,\FOI\3. godina\2012.-2013\PI\2014\projekt\2. faza\13.7\RepositoryTeam06-master\Projekt\Servis za čišćenje v0.1\test\servis_za_ciscenje\test1\obj\x86\Debug\PI.pdb

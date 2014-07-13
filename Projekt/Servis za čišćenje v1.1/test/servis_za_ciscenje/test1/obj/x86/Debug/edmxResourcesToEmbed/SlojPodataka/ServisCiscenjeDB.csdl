@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ServisCiscenjeDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="klijent">
+    <Key>
+      <PropertyRef Name="id_klijent" />
+    </Key>
+    <Property Name="id_klijent" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="adresa" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="kontakt" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="naziv" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="posaoid_posao" Type="Int32" Nullable="false" />
+    <Property Name="posaoid_posao2" Type="Int32" Nullable="false" />
+    <Property Name="primanjeObavijesti" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="posao" Relationship="Self.FKposao982464" FromRole="klijent" ToRole="posao" />
+  </EntityType>
+  <EntityType Name="korisnici">
+    <Key>
+      <PropertyRef Name="id_korisnik" />
+    </Key>
+    <Property Name="id_korisnik" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="posao">
+    <Key>
+      <PropertyRef Name="id_posao" />
+    </Key>
+    <Property Name="id_posao" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="datum" Type="DateTime" Precision="3" />
+    <Property Name="vrijeme" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="adresa_ciscenja" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="velicina_prostora" Type="Int32" />
+    <Property Name="tip_posla" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="cijena" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="vrijeme_izdavanja_racuna" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="klijent_id" Type="Int32" Nullable="false" />
+    <Property Name="klijentid_klijent" Type="Int32" Nullable="false" />
+    <Property Name="mailPoslan" Type="Boolean" />
+    <NavigationProperty Name="klijent" Relationship="Self.FKposao982464" FromRole="posao" ToRole="klijent" />
+    <NavigationProperty Name="radna_skupina" Relationship="Self.FKradna_skup677620" FromRole="posao" ToRole="radna_skupina" />
+    <NavigationProperty Name="tim" Relationship="Self.FKtim293996" FromRole="posao" ToRole="tim" />
+    <NavigationProperty Name="usluga_posao" Relationship="Self.FKusluga_pos587432" FromRole="posao" ToRole="usluga_posao" />
+  </EntityType>
+  <EntityType Name="radna_skupina">
+    <Key>
+      <PropertyRef Name="id_radnaSkupina" />
+    </Key>
+    <Property Name="id_radnaSkupina" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vozilaid_vozilo" Type="Int32" Nullable="false" />
+    <Property Name="posaoid_posao" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="posao" Relationship="Self.FKradna_skup677620" FromRole="radna_skupina" ToRole="posao" />
+    <NavigationProperty Name="vozila" Relationship="Self.FKradna_skup729366" FromRole="radna_skupina" ToRole="vozila" />
+  </EntityType>
+  <EntityType Name="radnici">
+    <Key>
+      <PropertyRef Name="idradnik" />
+    </Key>
+    <Property Name="idradnik" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ime" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="prezime" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="telefon" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tim" Relationship="Self.FKtim361845" FromRole="radnici" ToRole="tim" />
+  </EntityType>
+  <EntityType Name="tim">
+    <Key>
+      <PropertyRef Name="id_radnaSkupina" />
+    </Key>
+    <Property Name="id_radnaSkupina" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="posaoid_posao" Type="Int32" Nullable="false" />
+    <Property Name="radniciidradnik" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="posao" Relationship="Self.FKtim293996" FromRole="tim" ToRole="posao" />
+    <NavigationProperty Name="radnici" Relationship="Self.FKtim361845" FromRole="tim" ToRole="radnici" />
+  </EntityType>
+  <EntityType Name="usluga">
+    <Key>
+      <PropertyRef Name="id_usluga" />
+    </Key>
+    <Property Name="id_usluga" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="naziv" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="cijenaKvadrat" Type="Double" />
+    <NavigationProperty Name="usluga_posao" Relationship="Self.FKusluga_pos186432" FromRole="usluga" ToRole="usluga_posao" />
+  </EntityType>
+  <EntityType Name="usluga_posao">
+    <Key>
+      <PropertyRef Name="id_uslugaPosao" />
+    </Key>
+    <Property Name="id_uslugaPosao" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="uslugaid_usluga" Type="Int32" Nullable="false" />
+    <Property Name="posaoid_posao" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="posao" Relationship="Self.FKusluga_pos587432" FromRole="usluga_posao" ToRole="posao" />
+    <NavigationProperty Name="usluga" Relationship="Self.FKusluga_pos186432" FromRole="usluga_posao" ToRole="usluga" />
+  </EntityType>
+  <EntityType Name="vozila">
+    <Key>
+      <PropertyRef Name="id_vozilo" />
+    </Key>
+    <Property Name="id_vozilo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="registracijska_oznaka" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="model" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="radna_skupina" Relationship="Self.FKradna_skup729366" FromRole="vozila" ToRole="radna_skupina" />
+  </EntityType>
+  <Association Name="FKposao982464">
+    <End Role="klijent" Type="Self.klijent" Multiplicity="1" />
+    <End Role="posao" Type="Self.posao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="klijent">
+        <PropertyRef Name="id_klijent" />
+      </Principal>
+      <Dependent Role="posao">
+        <PropertyRef Name="klijentid_klijent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKradna_skup677620">
+    <End Role="posao" Type="Self.posao" Multiplicity="1" />
+    <End Role="radna_skupina" Type="Self.radna_skupina" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="posao">
+        <PropertyRef Name="id_posao" />
+      </Principal>
+      <Dependent Role="radna_skupina">
+        <PropertyRef Name="posaoid_posao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKtim293996">
+    <End Role="posao" Type="Self.posao" Multiplicity="1" />
+    <End Role="tim" Type="Self.tim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="posao">
+        <PropertyRef Name="id_posao" />
+      </Principal>
+      <Dependent Role="tim">
+        <PropertyRef Name="posaoid_posao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKusluga_pos587432">
+    <End Role="posao" Type="Self.posao" Multiplicity="1" />
+    <End Role="usluga_posao" Type="Self.usluga_posao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="posao">
+        <PropertyRef Name="id_posao" />
+      </Principal>
+      <Dependent Role="usluga_posao">
+        <PropertyRef Name="posaoid_posao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKradna_skup729366">
+    <End Role="vozila" Type="Self.vozila" Multiplicity="1" />
+    <End Role="radna_skupina" Type="Self.radna_skupina" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vozila">
+        <PropertyRef Name="id_vozilo" />
+      </Principal>
+      <Dependent Role="radna_skupina">
+        <PropertyRef Name="vozilaid_vozilo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKtim361845">
+    <End Role="radnici" Type="Self.radnici" Multiplicity="1" />
+    <End Role="tim" Type="Self.tim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="radnici">
+        <PropertyRef Name="idradnik" />
+      </Principal>
+      <Dependent Role="tim">
+        <PropertyRef Name="radniciidradnik" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKusluga_pos186432">
+    <End Role="usluga" Type="Self.usluga" Multiplicity="1" />
+    <End Role="usluga_posao" Type="Self.usluga_posao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usluga">
+        <PropertyRef Name="id_usluga" />
+      </Principal>
+      <Dependent Role="usluga_posao">
+        <PropertyRef Name="uslugaid_usluga" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ServisCiscenjeDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="klijent" EntityType="Self.klijent" />
+    <EntitySet Name="korisnici" EntityType="Self.korisnici" />
+    <EntitySet Name="posao" EntityType="Self.posao" />
+    <EntitySet Name="radna_skupina" EntityType="Self.radna_skupina" />
+    <EntitySet Name="radnici" EntityType="Self.radnici" />
+    <EntitySet Name="tim" EntityType="Self.tim" />
+    <EntitySet Name="usluga" EntityType="Self.usluga" />
+    <EntitySet Name="usluga_posao" EntityType="Self.usluga_posao" />
+    <EntitySet Name="vozila" EntityType="Self.vozila" />
+    <AssociationSet Name="FKposao982464" Association="Self.FKposao982464">
+      <End Role="klijent" EntitySet="klijent" />
+      <End Role="posao" EntitySet="posao" />
+    </AssociationSet>
+    <AssociationSet Name="FKradna_skup677620" Association="Self.FKradna_skup677620">
+      <End Role="posao" EntitySet="posao" />
+      <End Role="radna_skupina" EntitySet="radna_skupina" />
+    </AssociationSet>
+    <AssociationSet Name="FKtim293996" Association="Self.FKtim293996">
+      <End Role="posao" EntitySet="posao" />
+      <End Role="tim" EntitySet="tim" />
+    </AssociationSet>
+    <AssociationSet Name="FKusluga_pos587432" Association="Self.FKusluga_pos587432">
+      <End Role="posao" EntitySet="posao" />
+      <End Role="usluga_posao" EntitySet="usluga_posao" />
+    </AssociationSet>
+    <AssociationSet Name="FKradna_skup729366" Association="Self.FKradna_skup729366">
+      <End Role="vozila" EntitySet="vozila" />
+      <End Role="radna_skupina" EntitySet="radna_skupina" />
+    </AssociationSet>
+    <AssociationSet Name="FKtim361845" Association="Self.FKtim361845">
+      <End Role="radnici" EntitySet="radnici" />
+      <End Role="tim" EntitySet="tim" />
+    </AssociationSet>
+    <AssociationSet Name="FKusluga_pos186432" Association="Self.FKusluga_pos186432">
+      <End Role="usluga" EntitySet="usluga" />
+      <End Role="usluga_posao" EntitySet="usluga_posao" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

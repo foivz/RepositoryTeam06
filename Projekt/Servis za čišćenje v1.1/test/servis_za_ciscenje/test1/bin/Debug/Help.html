@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Servi za čišćenje - Help</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            jQuery(function ( $ ) {
+                function _log ( msg ){
+                    console.log( msg );
+                }
+
+                var App = {
+
+                    init: function () {
+                        this.bindEvents();
+                    },
+
+                    bindEvents: function () {
+                        $("#search").on('click', this.search);
+                        $("#reset").on('click', this.reset);
+                    },
+
+                    reset: function () {
+                        $(".paragraph").show();
+                    },
+
+                    search: function ( ) {
+                        var q = $("#searchTool > input").val();
+                        // _log(q);
+                        var p = $(".paragraph");
+
+                        for ( var i = 0; i < p.length; i++ ) {
+
+                            var tag = $(p[i]).data("tags"); 
+                            // _log(tag);
+
+                            if ( tag.indexOf( q ) > -1) {
+                                $(".paragraph").hide();
+                                $('.paragraph[data-tags="' + tag + '"]').show();
+                                return;
+                            }   
+
+                        }
+
+                    }
+
+                };
+
+                App.init();
+                window.App = App;
+
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="searchTool">
+            <input type="text" name="search"> <button id="search">Traži</button><button id="reset">Reset</button>
+        </div>
+        <div class="paragraph" data-tags="login ulaz">
+            <h2>Logiranje u aplikaciju</h2>  
+            Za logiranje u aplikaciju koristite korisničko ime i lozinku koju Vam je dao administrator. U slučaju zaboravljenih podataka za logiranje kontaktirajte administratora. 
+            <hr><br>   
+        </div>
+       
+        <div class="paragraph" data-tags="termin posao novi dodaj pregled po danu">
+            <h2>Kako unjeti novi termin</h2>
+            Nakon logiranja u aplikaciju na ekranu će se pojaviti kalendari. Datumi koji su <b>bold</b> predstavljaju da u tom danu postoji neki rezervirani termin. Klikom miša na željeni datum otvara se forma koja prikazuje popis termina za odabrani datum. Potrebno je odabrati vremensko razdoblje za željeni termin i kliknuti na gumb "Dodaj". <hr><br>      
+        </div>
+
+        <div class="paragraph" data-tags="šifrarnik sifrarnik baza podataka radnici vozila usluge">
+              <h2>Šifrarnik</h2> 
+               Uz pomoć šifrarnika možete u bazu podataka dodavati, uređivati i brisati radnike, službena vozila i usluge. Kako bi bilo koja od navedenih stavki bila dostupna unutar aplikacije kod dodavanja novog termina, prvo mora biti dodana u šifrarnik.
+        <hr><br>
+        </div>
+		
+		<div class="paragraph" data-tags="radnik izvješće popis">
+              <h2>Izvješća</h2> 
+              Korisnik može generirati izvješća za pojedinog radnika preko gumba koji se nalazi na glavnoj formi. Izvješće se prikazuje u novom prozoru, a može se izvesti u .pdf format i printati. Izvješće prikazuje popis poslova za pojedinog radnika na određeni dan.
+        <hr><br>
+        </div>
+		
+		<div class="paragraph" data-tags="unos novog termina posla posao žurno tip posla">
+              <h2>Unos novog termina</h2>
+			  U formi za unos novog posla potrebno je unjeti sva obavezna polja kako bi posao bio uspješno dodan u bazu podataka. Nakon što korisnik odabere usluge, radnike, klijenta i vozila, potrebno je unjeti veličinu prostora koji se čisti. Žurni tip posla je onaj koji je potrebno realizirati unutar idućih 24 sata.        
+        <hr><br>
+        </div>
+    </body>
+</html>
